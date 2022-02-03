@@ -1,0 +1,42 @@
+/* nabar */
+.navbar-brand{
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-icon{
+    margin-right: 15px;
+}
+.nav-item{
+    margin: 0 10px 0;
+}
+.dropdown-menu{
+    background-color: rgb(70, 70, 70) !important;
+}
+.dropdown-item:hover{
+    background-color: #212529 !important;
+}
+.dropdown-item{
+    color: #fff !important;
+}
+
+/* carousel */
+.carousel-img{
+    height: 75vh;
+    filter: brightness(60%);
+}
+.carousel-img,.card-img-top{
+    object-fit: cover;
+    object-position: center 25%;
+}
+/* expore cards */
+
+
+/* card */
+.card-img-top{
+    height: 200px;
+}
+.col-lg-3,.row,.col-lg-6{
+    /* margin: 20px 0px 20px 0px; */
+    padding: 20px!important; 
+}

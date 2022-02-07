@@ -1,14 +1,23 @@
-var a,b,c ;
-function hoverEffect(a){
-    a.classList.add("shadow-sm");
+for(var i=0;i<document.querySelectorAll(".card").length;i++){
+document.querySelectorAll(".card")[i].addEventListener("mouseover",hoverEffect)
+document.querySelectorAll(".card")[i].addEventListener("mouseleave",hoverEffectRemoval)
 }
-function hoverEffectRemoval(b){
-    b.classList.remove("shadow-sm");
+for(var i=0;i<document.querySelectorAll(".section2 img").length;i++){
+document.querySelectorAll(".section2 img")[i].addEventListener("mouseover",imgHoverEffect)
+document.querySelectorAll(".section2 img")[i].addEventListener("mouseleave",imgHoverEffectRemoval)
 }
 
-function imgHoverEffect(c){
-    c.classList.add("hoverZoom");
+
+function hoverEffect(){
+    this.classList.add("shadow-sm")
 }
-function imgHoverEffectRemoval(c){
-    c.classList.remove("hoverZoom");
+function hoverEffectRemoval(){
+    this.classList.remove("shadow-sm");
+}
+
+function imgHoverEffect(){
+    this.classList.add("hoverZoom");
+}
+function imgHoverEffectRemoval(){
+    this.classList.remove("hoverZoom");
 }

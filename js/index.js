@@ -1,10 +1,10 @@
 for(var i=0;i<document.querySelectorAll(".card").length;i++){
-document.querySelectorAll(".card")[i].addEventListener("mouseover",hoverEffect)
-document.querySelectorAll(".card")[i].addEventListener("mouseleave",hoverEffectRemoval)
+    document.querySelectorAll(".card")[i].addEventListener("mouseover",hoverEffect)
+    document.querySelectorAll(".card")[i].addEventListener("mouseleave",hoverEffectRemoval)
 }
 for(var i=0;i<document.querySelectorAll(".section2 img").length;i++){
-document.querySelectorAll(".section2 img")[i].addEventListener("mouseover",imgHoverEffect)
-document.querySelectorAll(".section2 img")[i].addEventListener("mouseleave",imgHoverEffectRemoval)
+    document.querySelectorAll(".section2 img")[i].addEventListener("mouseover",imgHoverEffect)
+    document.querySelectorAll(".section2 img")[i].addEventListener("mouseleave",imgHoverEffectRemoval)
 }
 
 
